@@ -25,7 +25,6 @@ fn get_settings(handle: &tauri::AppHandle) -> AppSettings {
         Some(value) => serde_json::from_value(value).unwrap_or(AppSettings::default()),
         None => AppSettings::default(),
 }
-}
 
 fn save_settings(handle: &tauri::AppHandle, settings: &AppSettings) -> Result<(), String> {
     let store = handle.store("settings").unwrap();
