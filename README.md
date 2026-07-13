@@ -1,4 +1,4 @@
-# Trauso (TeraBox Downloader) v2
+# Trauso (TeraBox Downloader) v23
 
 ![License](https://img.shields.io/github/license/basstimam/trauso)
 ![Version](https://img.shields.io/github/v/tag/basstimam/trauso?label=version)
